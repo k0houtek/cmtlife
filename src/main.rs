@@ -14,8 +14,9 @@ fn main() {
                                          [0,0,0,0,0,0,0,0,0,0],
                                          [0,0,0,0,0,0,0,0,0,0]];
 
+    let mut second_matrix = matrix.clone();
+
     loop {
-        let mut second_matrix = matrix.clone();
         for x in 0..9 {
             for y in 0..9 {
                 termdraw::set_position(x,y);
